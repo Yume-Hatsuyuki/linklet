@@ -90,7 +90,7 @@ export async function onRequest(context) {
 
             // slug 已存在
             if (existUrl) {
-                return Response.json({ message: 'Slug already exists.' },{
+                return Response.json({ message: 'Slug 已存在！' },{
                     headers: corsHeaders,
                     status: 200  
                 })
